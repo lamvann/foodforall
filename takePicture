@@ -1,0 +1,6 @@
+#!/bin/bash
+fswebcam -r 1920x1080 --no-timestamp --no-banner --jpeg 95 -F 1 -d /dev/video0  picture.jpg
+
+
+
+ig-upload picture.jpg "There is some FREE food available!"
